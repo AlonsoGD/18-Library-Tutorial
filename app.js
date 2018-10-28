@@ -3,17 +3,13 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-<<<<<<< HEAD
-var credentials = require('./credentials');
 
-=======
->>>>>>> be312e9... First commit - boilerplate
+var credentials = require('./credentials');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
-<<<<<<< HEAD
 //Set up mongoose connection
 var mongoose = require('mongoose');
 var mongoDB = `mongodb://${credentials.db.user}:${credentials.db.pass}@ds143683.mlab.com:43683/local_library`;
@@ -21,8 +17,6 @@ mongoose.connect(mongoDB, { useNewUrlParser: true });
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-=======
->>>>>>> be312e9... First commit - boilerplate
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

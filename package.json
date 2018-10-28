@@ -11,10 +11,10 @@
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
-<<<<<<< HEAD
+
     "mongoose": "^5.3.7",
-=======
->>>>>>> be312e9... First commit - boilerplate
+
+
     "morgan": "~1.9.0",
     "pug": "2.0.0-beta11"
   },

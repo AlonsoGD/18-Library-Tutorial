@@ -70,11 +70,11 @@ typings/
 .vuepress/dist
 
 # Serverless directories
-<<<<<<< HEAD
+
 .serverless
 
 #credentials passwords
 /credentials.js
-=======
+
 .serverless
->>>>>>> be312e9... First commit - boilerplate
+
