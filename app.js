@@ -10,6 +10,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+
 //Set up mongoose connection
 var mongoose = require('mongoose');
 var mongoDB = `mongodb://${credentials.db.user}:${credentials.db.pass}@ds143683.mlab.com:43683/local_library`;
